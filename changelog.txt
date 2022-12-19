@@ -1,0 +1,92 @@
+[This content is restricted due to your age, localization, nationality, identity, religion or because why not]
+
+v1.0
+        release
+
+v1.1
+        added new command:
+            "jasny" - plays random "Jasny Chuj" .mp3 file
+    v1.1.1
+        added new command:
+            "hulp" - sends a link to a government site    
+    v1.1.2
+        updated command:
+            "jasny" - added new variant of "Jasny Chuj" (3)
+    v1.1.3
+        cleared root directory
+        reworked command:
+            "help"
+    v1.1.4
+        updated function:
+            cornjob1 now checks if any user is present before joining
+    v1.1.5
+        updated command:
+            "jasny" - added selection
+    v1.1.6
+        updated command:
+            "jasny" - added new variant of "Jasny Chuj" (4)
+    v1.1.7
+        updated command:
+            "jojn" - added selection
+
+v1.2
+        added new command:
+            "kurwa" - use in case of Mr.Black's deafness
+    v1.2.2
+        updated command:
+            "kurwa" - added cooldown
+            "help" - added record: `kurwa
+        bug fixes:
+            "kurwa" - fixed a critical error
+    v1.2.3
+        updated command:
+            "kurwa" - now remembers channel of origin
+    v1.2.4
+        added new function:
+            on_command_error - bot will now respond if it can't find the command
+        updated command:
+            "jasny" - corrected selection
+            "jasny" - added message in case of invalid parameter
+
+v1.3
+        added new function:
+            uno - mute/deaf user who muted/deafened bot
+    v1.3.1
+        bug fixes:
+            "jasny" - changed "<" to ">" and vice versa
+    v1.3.2
+        updated command:
+            "jasny" - now checks if any user is present before joining and send message if is not
+            "help" - removed record: `test
+        bug fixed:
+            "help" - fixed text formatting issue
+    v1.3.3
+        updated command:
+            "kurwa" - added selection
+        updated function
+            on_command_error - now bot will display command cooldown
+            
+v1.4
+        added new function:
+            "espionage" - collect intel about various things
+        added new command:
+            "stats" - display top secret intel
+    v1.4.1
+        updated function:
+            "espionage" - now count "Error 404"
+        updated command:
+            "stats" - now display "Error 404"
+            "help" - added record: `stats
+        bug fixed:
+            "sio" - now bot can disconnect after using on it `kurwa
+
+
+v2.0
+        added new function:
+            now all commands support app_commands
+            now all commands uses are saved in logs
+            /jojn, /sio, /jasny and /kurwa - got new responses
+        updated function:
+            logs -  logs format was remodeled
+        bug fixed:
+            "help" - added record: /stats (now for real)
